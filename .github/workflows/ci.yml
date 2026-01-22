@@ -19,6 +19,6 @@ jobs:
 
     - name: Build the Docker image
       run: docker build -t aditya47050/ci-cd:latest .
-git
+
     - name: Push to Dockerhub
       run: docker push aditya47050/ci-cd:latest
