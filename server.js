@@ -5,7 +5,7 @@ const app = express()
 app.get('/',(req,res)=>{
     res.json({
         status:200,
-        message:"hello world"
+        message:"Hello ! this is my first ci-cd pipeline"
     })
 })
 
